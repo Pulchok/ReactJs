@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;}
+
+.navbar-brand{
+  font-size: 1.9rem  !important;
+  color: rgb(16, 250, 172) !important;
+}
+
+button{
+  color: rgb(161, 10, 248);
+  font-size:xx-large;
+  background-color: rgb(14, 196, 187);
+  align-items: center;
+  margin: 6px 2px;
+  border-color:solid-black;
+  border-style:ridge;
+  
+  
+  
+}
+.navbar a:hover{
+   color: black;
+  cursor:-webkit-grabbing;
+  
+  
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid rgb(167, 143, 143);
+}
+
+
+#header{
+  width:100%;
+  height: 80vh;
+  margin-top: 70px;
+
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name{
+  color: aqua;
+}
+
+#header h2{
+  color: rgb(65, 9, 35);
+  font-size: 24px;
+
+}
+
+#header .btn-get-start{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: rgb(9, 202, 202);
+  border: 2px solid rgb(2, 24, 17);
+  text-decoration: none;
+
+}
+
+#header .btn-get-start:hover{
+  background: rgb(14, 207, 94);
+  color: aliceblue;
+}
+
+.header-img{
+  text-align: right;
+}
+
+#header .animated{
+  animation: up-down 4s ease-in-out infinite alternate-reverse both;
+}
+
+
+.footer{
+  width: 100%;
+  height: 30px;
+   text-align: center;
+   background-color: black;
+   color: blanchedalmond;
+}
